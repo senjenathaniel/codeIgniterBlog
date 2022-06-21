@@ -1,7 +1,7 @@
 <h2>Latest Posts</h2>
 <div class="row">
     <?php foreach ($blog as $post): ?>
-    <div class="col s12 m12 l6">
+    <div class="col s6 m6">
         <div class="card">
             <div class="card-image">
                 <img class="responsive-img" src="<?=$post['blog_image_url'];?>" alt="photo">
@@ -12,7 +12,7 @@
                 <p><?=substr($post['blog_body'], 0, 60) . "...";?></p>
             </div>
             <div class="card-action">
-                <a href="#">Read More</a>
+                <a href="/blog/<?=$post['blog_id'];?>">Read More</a>
             </div>
         </div>
     </div>

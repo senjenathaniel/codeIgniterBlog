@@ -45,6 +45,7 @@ $routes->post('product/update/(:any)', 'Product::update/&1');
 
 // Blog Routes
 $routes->get('/blog', 'Blog::index');
+$routes->get('/:any', 'Blog::single/$1');
 
 /*
  * --------------------------------------------------------------------
