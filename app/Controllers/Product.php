@@ -27,8 +27,19 @@ class Product extends BaseController
         );
 
         $model->saveProduct($data);
+        return redirect()->to('/product');
+    }
 
-        return redirect()->to('product');
+    public function edit($id = null)
+    {
+        $model = new ProductModel();
+        $id = $this->request->getPost('product_id');
 
+        $data = array(
+            'product_name' => $this->request->getPost('product_name'),
+            'product_price' => $this->request->getPost('product_price'),
+        );
+        $model->update($data, $id);
+        return redirect()->to('/product');
     }
 }

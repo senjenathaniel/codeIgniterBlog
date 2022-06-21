@@ -6,3 +6,456 @@ in APPPATH/Models/ProductModel.php on line 21.
  4 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
  5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
  6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:31:22 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:32:51 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:34:15 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:40:49 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:40:56 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:41:18 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:41:50 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:42:01 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:43:02 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getProduct()
+in APPPATH/Controllers/Product.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:43:50 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getPostt()
+in APPPATH/Controllers/Product.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:43:57 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:44:49 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 05:45:09 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 07:32:29 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 07:32:30 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 07:33:03 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 07:34:07 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 07:36:48 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 07:36:59 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 07:37:10 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:03:38 --> Too few arguments to function App\Controllers\Product::edit(), 0 passed in /app/myapp/system/CodeIgniter.php on line 896 and exactly 1 expected
+in APPPATH/Controllers/Product.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:07:17 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:08:19 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:09:44 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:10:31 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:10:38 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:11:05 --> Call to undefined method App\Models\ProductModel::updateProduct
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:11:30 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 08:28:37 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 09:23:14 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 09:25:37 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 09:40:59 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 10:11:34 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 10:11:46 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 10:15:36 --> Call to undefined function App\Controllers\is_empty()
+in APPPATH/Controllers/Product.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 10:15:43 --> Call to undefined function App\Controllers\is_empty()
+in APPPATH/Controllers/Product.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 10:18:23 --> error_log() expects at least 1 argument, 0 given
+in APPPATH/Controllers/Product.php on line 48.
+ 1 APPPATH/Controllers/Product.php(48): error_log()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 10:20:02 --> 
+in APPPATH/Controllers/Product.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 10:20:31 --> syntax error, unexpected token "echo"
+in APPPATH/Controllers/Product.php on line 49.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 10:20:46 --> 
+in APPPATH/Controllers/Product.php on line 48.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 10:28:32 --> Undefined array key "produuct_id"
+in APPPATH/Views/product_view.php on line 22.
+ 1 APPPATH/Views/product_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/product_view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Product.php(13): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 11:13:43 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 1576.
+ 1 SYSTEMPATH/BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(692): CodeIgniter\BaseModel->update()
+ 4 APPPATH/Controllers/Product.php(42): CodeIgniter\Model->update()
+ 5 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Product->edit()
+ 6 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 11:22:40 --> Class "App\Controller\BaseController" not found
+in APPPATH/Controllers/Blog.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(284): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 11:22:53 --> Class "CodeIgniter\BaseController" not found
+in APPPATH/Controllers/Blog.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(284): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 11:23:35 --> Class "App\Controller\BaseController" not found
+in APPPATH/Controllers/Blog.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(284): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(846): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 11:23:41 --> Invalid file: blog.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 11:23:58 --> Invalid file: blog_view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 11:23:59 --> Invalid file: blog_view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 12:05:34 --> Call to undefined method App\Models\BlogModel::getBlog
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Blog.php(12): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-21 12:06:06 --> Table 'bitnami_myapp.blogs' doesn't exist
+CRITICAL - 2022-06-21 12:06:06 --> Table 'bitnami_myapp.blogs' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Models/BlogModel.php(14): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH/Controllers/Blog.php(12): App\Models\BlogModel->get_blog()
+ 9 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+10 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 12:19:45 --> syntax error, unexpected end of file
+in APPPATH/Views/blog/blog_view.php on line 38.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Blog.php(15): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 12:20:38 --> Undefined variable $blog
+in APPPATH/Views/blog/blog_view.php on line 10.
+ 1 APPPATH/Views/blog/blog_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/blog/blog_view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Blog.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 12:20:48 --> Undefined variable $data
+in APPPATH/Views/blog/blog_view.php on line 10.
+ 1 APPPATH/Views/blog/blog_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/blog/blog_view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Blog.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 12:25:29 --> Undefined variable $blog
+in APPPATH/Views/blog/blog_view.php on line 10.
+ 1 APPPATH/Views/blog/blog_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/blog/blog_view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Blog.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 12:25:31 --> Undefined variable $blog
+in APPPATH/Views/blog/blog_view.php on line 10.
+ 1 APPPATH/Views/blog/blog_view.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/blog/blog_view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Blog.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-21 12:27:34 --> Undefined array key "blog_body"
+in APPPATH/Views/blog/blog_view.php on line 14.
+ 1 APPPATH/Views/blog/blog_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/blog/blog_view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Blog.php(15): view()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Blog->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

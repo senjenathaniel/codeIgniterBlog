@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <form action="/product/save">
+        <form action="/product/save" method="post">
             <input type="text" name="product_name" id="name">
             <input type="text" name="product_price" id="price">
             <input type="submit" value="Save">
