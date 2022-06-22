@@ -13,7 +13,7 @@ class BlogModel extends Model
         if ($id === false) {
             return $this->findAll();
         } else {
-            return $this->getwhere(['blog_id' => $id]);
+            return $this->getWhere(['id' => $id]);
         }
     }
 }

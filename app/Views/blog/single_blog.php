@@ -1,6 +1,8 @@
 <div class="container">
   <div class="row">
-    <h2>Single Blog - <?=$post->blog_title?></h2>
-
+    <img src="" alt="" class="image-responsive">
+    <h2><?=$blog_title;?></h2>
+    <hr>
+    <p><?=$blog_body;?></p>
   </div>
 </div>
