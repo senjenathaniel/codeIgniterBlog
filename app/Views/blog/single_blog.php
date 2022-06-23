@@ -1,8 +1,11 @@
+<div class="row">
+  <img src="<?=$img_url;?>" class="img-fluid" alt="...">
+</div>
 <div class="container">
   <div class="row">
-    <img src="" alt="" class="image-responsive">
-    <h2><?=ucfirst($blog_title);?></h2>
+    <h1 class="display-4"><?=$blog_title;?></h1>
+    <b class="small"><?=$date_posted;?> | <?=$blog_author;?></b>
     <hr>
-    <p><?=$blog_body;?></p>
+    <?=$blog_body;?>
   </div>
 </div>

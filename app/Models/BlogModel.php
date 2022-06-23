@@ -15,15 +15,15 @@ class BlogModel extends Model
         if ($id === false) {
             return $this->findAll();
         } else {
-            $query = $db->query('SELECT * FROM blogs WHERE id = ' . $id);
-            $row = $query->getRowArray();
-            $data['blog'] = array(
-                'blog_title' => $row['blog_title'],
-                'blog_author' => $row['blog_author'],
-                'blog_body' => $row['blog_body'],
-                'blog_posting_time' => $row['blog_posting_time'],
-                'blog_img_url' => $row['blog_image_url'],
-            );
+            // $query = $db->query('SELECT * FROM blogs WHERE blog_id = ' . $id);
+            // $row = $query->getRowArray();
+            // $data['blog'] = array(
+            //     'blog_title' => $row['blog_title'],
+            //     'blog_author' => $row['blog_author'],
+            //     'blog_body' => $row['blog_body'],
+            //     'blog_posting_time' => $row['blog_posting_time'],
+            //     'blog_img_url' => $row['blog_image_url'],
+            // );
 
             return $data;
 

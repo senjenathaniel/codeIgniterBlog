@@ -1,12 +1,23 @@
-<nav class="blue accent-2">
-  <div class="container black-text">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">CI4 Blog</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/blog">See All</a></li>
-        <li><a href="collapsible.html"><i class="material-icons">search</i></a></li>
-        <li><a href="collapsible.html"><i class="material-icons">person</i></a></li>
-      </ul>
+
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/blog">CodeIgnter 4 Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>

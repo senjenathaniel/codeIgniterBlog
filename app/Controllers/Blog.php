@@ -17,17 +17,19 @@ class Blog extends BaseController
         . view('templates/footer');
     }
 
-    public function single($id)
+    public function single($id = false)
     {
-        $id = 1;
+        $id = 2;
+        echo $id . " is your passed id";
         $model = new BlogModel();
         $post = $model->find($id);
         if ($post) {
             $data = array(
                 'blog_title' => $post['blog_title'],
                 'blog_body' => $post['blog_body'],
-                'blo'
-
+                'blog_author' => $post['blog_author'],
+                'date_posted' => $post['blog_posting_time'],
+                'img_url' => $post['blog_image_url'],
             );
 
             return view('templates/header')
