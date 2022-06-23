@@ -11,7 +11,7 @@
                     <p><?=substr($post['blog_body'], 0, 72) . "...";?></p>
                 </div>
                 <div class="card-action">
-                    <a class="waves-effect waves-teal btn-flat" href="/blog/<?=$post['id'];?>">Read</a>
+                    <a class="waves-effect waves-teal btn-flat" href="/blog/<?=$post['blog_id'];?>">Read</a>
                 </div>
             </div>
         </div>

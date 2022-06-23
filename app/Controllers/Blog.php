@@ -17,25 +17,17 @@ class Blog extends BaseController
         . view('templates/footer');
     }
 
-    public function single($id = false)
+    public function single($id)
     {
+        $id = 1;
         $model = new BlogModel();
-        $id = $this->request->getPost('id');
-        if (!empty($id)) {
-            if ($data['post'] = $model->get_blog($id)->getRow() === true) {
-                // echo "this works";
-                echo $id;
-            } else {
-                echo "This works not";
-                // echo $id;
-            }
-
+        $post = $model->find($id);
+        if ($post) {
             $data = array(
-                'blog_title' => $this->request->getPost('blog_title'),
-                'blog_body' => $this->request->getPost('blog_body'),
-                'blog_author' => $this->request->getPost('blog_author'),
-                'blog_image_url' => $this->request->getPost('blog_image_url'),
-                'blog_posting_time' => $this->request->getPost('blog_posting_time'),
+                'blog_title' => $post['blog_title'],
+                'blog_body' => $post['blog_body'],
+                'blo'
+
             );
 
             return view('templates/header')
@@ -44,7 +36,7 @@ class Blog extends BaseController
             . view('templates/footer');
 
         } else {
-            throw new \CodeIgniter\Exceptions\PageNotFoundException('Could not locate post ' . $id);
+            echo "Page no found";
         }
 
     }
