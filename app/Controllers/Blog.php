@@ -41,4 +41,25 @@ class Blog extends BaseController
         . view('templates/footer');
 
     }
+
+    public function create()
+    {
+        $model = model(BlogModel::class);
+
+        if ($this->request->getMethod() === 'post' && $this->validate([
+            'title' => 'required|min_length[3]|max_len[255]',
+            'body' => 'required',
+        ])) {
+            $model->save([
+                'title' => $this->request->getPost('blog_title'),
+                'body' => $this->request->getPost('blog_body'),
+                'blog_id' => url_title($this->request->getPost('title'), '-', true),
+            ]);
+            return view('../Views/admin/success');
+        }
+
+        return view('admin/templates/dashboard_header')
+        . view('admin/create', ['title' => 'New Blog'])
+        . view('admin/templates/dashboard_footer');
+    }
 }
