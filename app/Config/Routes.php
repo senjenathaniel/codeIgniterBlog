@@ -36,16 +36,9 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('hello', 'Hello::index');
-$routes->get('product', 'Product::index');
-$routes->get('product/add_new', 'Product::add_new');
-$routes->post('product/save', 'Product::save');
-$routes->get('product/edit/(:any)', 'Product::edit/&1');
-$routes->post('product/update/(:any)', 'Product::update/&1');
-
 // Blog Routes
-$routes->get('/blog', 'Blog::index');
-$routes->get('/:any', 'Blog::single/$1');
+$routes->get('/blogs', 'Blog::index');
+$routes->get('blogs/(:segment)', 'Blog::view/$1');
 
 /*
  * --------------------------------------------------------------------
