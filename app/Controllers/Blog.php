@@ -12,11 +12,12 @@ class Blog extends BaseController
         // $data['blog'] = $model->get_blog();
 
         $data = [
-            'blogs' => $model->get_blog(),
+            'blogs' => $model->paginate(8),
             'title' => 'Latest blogs',
+            'pager' => $model->pager,
         ];
 
-        return view('templates/header')
+        return view('templates/header', $data)
         . view('/templates/navbar')
         . view('/blog/blog_index', $data)
         . view('templates/footer');
@@ -34,7 +35,7 @@ class Blog extends BaseController
             $data['title'] = $data['blogs']['blog_title'];
 
         }
-        return view('templates/header')
+        return view('templates/header', $data)
         . view('/templates/navbar')
         . view('/blog/blog_view', $data)
         . view('templates/footer');

@@ -19,5 +19,5 @@
     <?php else: ?>
     <h2>There are currently no blogs to display!</h2>
     <?php endif;?>
-
+<?=$pager->links()?>
 </div>
