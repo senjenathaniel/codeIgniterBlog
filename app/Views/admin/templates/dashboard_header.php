@@ -22,7 +22,10 @@
             <a class="nav-link active" aria-current="page" href="/blogs">See Blogs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/admin/create">Create New</a>
+            <a class="nav-link" href="/admin/register">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/admin/logout">Logout</a>
           </li>
         </ul>
         <form class="d-flex">

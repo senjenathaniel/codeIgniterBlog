@@ -37,6 +37,11 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 // Blog Routes
+$routes->get('/admin/register', 'AdminDashboard::register');
+$routes->get('/admin/login', 'AdminDashboard::login');
+$routes->get('/AdminDashboard/loginAuth', '/AdminDashboard::loginAuth');
+
+
 $routes->match(['get', 'post'], '/admin/create', 'Blog::create');
 $routes->get('/admin', 'AdminDashboard::index');
 $routes->get('/blogs', 'Blog::index');
