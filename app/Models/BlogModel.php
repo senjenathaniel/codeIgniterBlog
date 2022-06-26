@@ -17,4 +17,6 @@ class BlogModel extends Model
             return $this->where(['id' => $id])->first();
         }
     }
+
+    
 }

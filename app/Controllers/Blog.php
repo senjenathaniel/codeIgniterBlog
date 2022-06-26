@@ -59,7 +59,7 @@ class Blog extends BaseController
         }
 
         return view('admin/templates/dashboard_header')
-        . view('admin/create', ['title' => 'New Blog'])
+        . view('admin/create')
         . view('admin/templates/dashboard_footer');
     }
 }
