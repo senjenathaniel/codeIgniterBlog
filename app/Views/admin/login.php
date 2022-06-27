@@ -1,38 +1,41 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Codeigniter Login with Email/Password Example</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+ 
+    <title>Codeigniter 4 Login Example</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container mt-5" >
         <div class="row justify-content-md-center">
-            <div class="col-5">
-                
-                <h2>Login in</h2>
-                
+ 
+            <div class="col-6">
+                <h1>Sign In</h1>
                 <?php if(session()->getFlashdata('msg')):?>
-                    <div class="alert alert-warning">
-                       <?= session()->getFlashdata('msg') ?>
-                    </div>
+                    <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
                 <?php endif;?>
-                <form action="<?php echo base_url(); ?>/AdminDashboard/loginAuth" method="post">
-                    <div class="form-group mb-3">
-                        <input type="text" name="username" placeholder="Username" value="<?= set_value('username') ?>" class="form-control" >
+                <form action="/admin/login" method="post">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" name="username" class="form-control" id="username" value="<?= set_value('username') ?>">
                     </div>
-                    <div class="form-group mb-3">
-                        <input type="password" name="password" placeholder="Password" class="form-control" >
+                    <div class="mb-3">
+                        <label for="InputForPassword" class="form-label">Password</label>
+                        <input type="password" name="password" class="form-control" id="InputForPassword">
                     </div>
-                    
-                    <div class="d-grid">
-                         <button type="submit" class="btn btn-success">Signin</button>
-                    </div>     
+                    <button type="submit" class="btn btn-primary">Login</button>
                 </form>
             </div>
-              
+             
         </div>
     </div>
+     
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
   </body>
 </html>

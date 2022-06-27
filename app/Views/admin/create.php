@@ -1,48 +1,29 @@
-<?=session()->getFlashdata('error')?>
-<?=service('validation')->listErrors()?>
+<?php
+  session()->getFlashdata('error');
+  service('validation')->listErrors();
 
 
-<div class="container" id="editorjs">
-  
-</div>
-<script>
-const editor = new EditorJS({
-  holder: 'editorjs',
-  tools: {
-    // code : CodeTool,
-    header: Header,
-    list: List,
-    image: SimpleImage,
-    quote: {
-      class: Quote,
-      inlineToolbar: true,
-      shortcut: 'CMD+SHIFT+O',
-      config: {
-        quotePlaceholder: 'Enter a quote',
-        captionPlaceholder: 'Quote\'s author',
-      },
-    }
-  }
-});
-
-</script>
-<!-- 
-<div class="container">
-  <form action="/admin/create">
+?>
+<div class="container mb-5">
+  <form action="/admin/create" method="post">
     <?= csrf_field(); ?>
-    <div class="mb-3">
-      <input type="text" class="form-control" style="border-color: transparent;" id="title" name="title" placeholder="Title" >
-    </div>
-    <div class="mb-3">
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Blog content here" name="body" id="blog_body"
-          style="height: 100px"></textarea>
-        <label for="floatingTextarea2">Blog Entry</label>
-      </div>
-    </div>
-
-    <input type="submit" class="btn btn-primary" value="Create Entry" />
-  </form> -->
+    <!-- Editor -->
+    <textarea id="default-editor" name="body"></textarea>
+    <input type="submit" class="mt-5 btn btn-outline-primary" value="Create Entry" />
+  </form>
 </div>
 
-<script src="editor.js"></script>
+<script>
+  tinymce.init({
+    selector: 'textarea',
+    plugins: 'a11ychecker advcode autosave casechange export formatpainter image editimage linkchecker autolink lists checklist media mediaembed powerpaste table tableofcontents tinymcespellchecker',
+    toolbar: 'undo redo | styles | bold italic | link image | alignleft | aligncenter | alignright | restoredraft',
+    autosave_interval: '5s',
+    autosave_ask_before_unload: true,
+    browser_spellcheck: true,
+    content_css: 'default',
+    tinycomments_mode: 'embedded',
+    tinycomments_author: 'Author name',
+    min_height: 600,
+  });
+</script>

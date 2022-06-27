@@ -35,19 +35,19 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+// $routes->get('/', 'Home::index');
 // Blog Routes
-$routes->get('/admin/register', 'AdminDashboard::register');
-$routes->get('/admin/login', 'AdminDashboard::login');
-$routes->get('/AdminDashboard/loginAuth', '/AdminDashboard::loginAuth');
-
+$routes->get('/admin', 'LoginController::dashboard');
+$routes->match(['get', 'post'], '/admin/register', 'LoginController::save');
+$routes->get('/admin/logout', 'LoginController::logout');
+$routes->get('/admin/login', 'LoginController::auth');
+$routes->get('/admin/logout', 'LoginController::logout');
 
 $routes->match(['get', 'post'], '/admin/create', 'Blog::create');
-$routes->get('/admin', 'AdminDashboard::index');
 $routes->get('/blogs', 'Blog::index');
 $routes->get('blogs/(:segment)', 'Blog::view/$1');
 
-/*
+/* 
  * --------------------------------------------------------------------
  * Additional Routing
  * --------------------------------------------------------------------

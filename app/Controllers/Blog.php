@@ -55,11 +55,11 @@ class Blog extends BaseController
                 'body' => $this->request->getPost('blog_body'),
                 'blog_id' => url_title($this->request->getPost('title'), '-', true),
             ]);
-            return view('../Views/admin/success');
+            return view('/admin/dashboard');
         }
 
         return view('admin/templates/dashboard_header')
-        . view('admin/create')
+        . view('admin/dashboard')
         . view('admin/templates/dashboard_footer');
     }
 }

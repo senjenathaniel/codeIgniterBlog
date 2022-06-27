@@ -8,8 +8,8 @@
             <div class="card mb-3" style="width: 18rem;">
                 <img style="height: 17em;" src="https://picsum.photos/200/200" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h4><?=substr($post['blog_title'], 0, 20);?></h4>
-                    <p><?=substr($post['blog_body'], 0, 60) . "...";?></p>
+                    <h4><?=substr($post['blog_title'], 0, 25);?></h4>
+                    <p><?=substr($post['blog_body'], 0, 50) . "...";?></p>
                     <p><a class="btn btn-primary" href="/blogs/<?=$post['id'];?>">Read More</a></p>
                 </div>
             </div>

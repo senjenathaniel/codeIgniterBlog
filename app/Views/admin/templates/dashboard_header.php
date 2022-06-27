@@ -12,9 +12,7 @@
   <!-- Load google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300;1,700&family=Nunito+Sans:wght@200;400;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300;1,700&family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
 
   <style>
     body {
@@ -22,22 +20,17 @@
     }
 
     header {
-      font-family: 'Nunito Sans', sans-serif;
+      font-family: 'Poppins', sans-serif;
     }
   </style>
-  <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@editorjs/embed@latest"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@editorjs/code@2.0.0"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/@editorjs/quote@latest"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@editorjs/delimiter@1.0.1"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@editorjs/list@latest"></script>
+
+  <!-- Load TinyMCE -->
+  <script src="https://cdn.tiny.cloud/1/paldfgcte7khykp0czbnc105jdbcgorv1oxq4dizv5xebw0d/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 </head>
 
 <body>
 
-  <header class="p-3 mb-3 border-bottom">
+  <header class="p-3 mb-3 border-bottom bg-light">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
@@ -47,8 +40,8 @@
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="/admin" class="nav-link px-2 link-secondary">Dashboard</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Blogs</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Users</a></li>
+          <li><a href="/blogs" class="nav-link px-2 link-dark">Blogs</a></li>
+          <li><a href="/admin/profile" class="nav-link px-2 link-dark">Users</a></li>
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
@@ -62,11 +55,11 @@
           </a>
           <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
             <li><a class="dropdown-item" href="/admin/create">Create New</a></li>
-            <li><a class="dropdown-item" href="/admin/profile">Profile</a></li>
+            <li><a class="dropdown-item" href="/admin/register">Profile</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="/admin/lougout">Sign out</a></li>
+            <li><a class="dropdown-item" href="/admin/logout">Sign out</a></li>
           </ul>
         </div>
       </div>
